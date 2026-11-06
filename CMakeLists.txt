@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.24)
 project(physics
     VERSION 0.0.1
-    DESCRIPTION "Numerical solutions and plots for exercises from \"Introduction to Classical Mechanics\" - David Morin"
+    DESCRIPTION "Numerical solutions and plots from various physics textbooks"
     HOMEPAGE_URL "https://github/com/GrahamStrickland/physics"
     LANGUAGES CXX
 )
