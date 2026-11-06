@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.24)
-project(morin
+project(physics
     VERSION 0.0.1
     DESCRIPTION "Numerical solutions and plots for exercises from \"Introduction to Classical Mechanics\" - David Morin"
-    HOMEPAGE_URL "https://github/com/GrahamStrickland/morin"
+    HOMEPAGE_URL "https://github/com/GrahamStrickland/physics"
     LANGUAGES CXX
 )
 
@@ -19,8 +19,8 @@ set(SOURCES
     src/main.cpp
 )
 
-add_executable(morin ${SOURCES})
+add_executable(physics ${SOURCES})
 
-target_compile_features(morin PUBLIC cxx_std_26)
+target_compile_features(physics PUBLIC cxx_std_26)
 
-target_include_directories(morin PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(physics PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
